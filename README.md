@@ -18,3 +18,7 @@
 #### B) with android emulator
 1. Run `yarn install` in the root folder to install dependencies
 2. Run `npx react-native run-android` to start metro, application and the android emulator
+
+## Troubleshooting
+**XCode build fails with `Error: Command PhaseScriptExecution failed with a nonzero exit code`**
+- if you're using nvm, try running `nvm unalias default`
